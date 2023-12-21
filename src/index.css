@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Gabarito:wght@600&family=Jost:wght@300&family=Lexend:wght@600&family=Montserrat:wght@500&family=Open+Sans&family=Poppins:wght@300&family=Righteous&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* font-family: 'Figtree', sans-serif;
+  font-family: 'Gabarito', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Lexend', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Righteous', sans-serif; */
+}
+
+::selection{
+  color: rgba(210, 140, 56, 0.818);
+}
